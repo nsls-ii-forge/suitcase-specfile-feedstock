@@ -1,7 +1,7 @@
 About suitcase-specfile
 =======================
 
-Home: https://nsls-ii.github.io/suitcase
+Home: https://blueskyproject.io/suitcase
 
 Package license: BSD (3-clause)
 
@@ -80,5 +80,4 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@NSLS-II](https://github.com/NSLS-II/)
 
