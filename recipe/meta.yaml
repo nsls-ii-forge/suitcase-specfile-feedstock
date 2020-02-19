@@ -1,6 +1,6 @@
 {% set name = "suitcase-specfile" %}
-{% set version = "0.2.2" %}
-{% set sha256 = "4c3f106ecb3081d8718f188742fa0d6e90a1ad96170ec421d7335f8af99aa5e9" %}
+{% set version = "0.2.3" %}
+{% set sha256 = "0121b94f507327ed8c13e4d9cbe0af668dab3068ede1a619ece16a62190e0f00" %}
 
 package:
   name: {{ name|lower }}
