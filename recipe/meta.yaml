@@ -1,6 +1,6 @@
 {% set name = "suitcase-specfile" %}
-{% set version = "0.2.3" %}
-{% set sha256 = "0121b94f507327ed8c13e4d9cbe0af668dab3068ede1a619ece16a62190e0f00" %}
+{% set version = "0.2.4" %}
+{% set sha256 = "653c6a5675c7ee0c0b65c1059ae41ebfef3b85d1ed18529728072424f5b72b2e" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
 requirements:
   host:
